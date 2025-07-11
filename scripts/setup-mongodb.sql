@@ -1,0 +1,26 @@
+-- MongoDB Setup Instructions
+-- 
+-- This is a reference for the MongoDB collection structure.
+-- The actual database and collection will be created automatically
+-- when the first email is inserted.
+--
+-- Database: saas_subscribers
+-- Collection: emails
+--
+-- Document structure:
+-- {
+--   "_id": ObjectId,
+--   "email": "user@example.com",
+--   "subscribedAt": ISODate,
+--   "source": "landing_page"
+-- }
+--
+-- To view your subscribers in MongoDB:
+-- 1. Connect to your MongoDB instance
+-- 2. Use the database: use saas_subscribers
+-- 3. Query emails: db.emails.find()
+--
+-- To set up MongoDB connection:
+-- Add MONGODB_URI environment variable with your MongoDB connection string
+-- Example: mongodb://localhost:27017 (for local)
+-- Example: mongodb+srv://username:password@cluster.mongodb.net/dbname (for Atlas)
