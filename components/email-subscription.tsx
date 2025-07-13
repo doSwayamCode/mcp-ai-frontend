@@ -45,7 +45,7 @@ export function EmailSubscription() {
       <div className="max-w-md mx-auto px-4">
         <div className="p-6 sm:p-8 rounded-2xl bg-gradient-to-r from-green-500/10 to-emerald-500/10 border border-green-500/20 backdrop-blur-sm">
           <CheckCircle className="w-12 h-12 text-green-400 mx-auto mb-4" />
-          <h3 className="text-xl font-semibold mb-2 text-green-400">Welcome to Intern Dedo! 🎉</h3>
+          <h3 className="text-xl font-semibold mb-2 text-green-400">Welcome to Intern Wala! 🎉</h3>
           <p className="text-gray-300 text-sm sm:text-base">
             You're all set! We'll send you the latest internship opportunities directly to your inbox.
           </p>
