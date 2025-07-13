@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter, Poppins } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react'
 import { GlobalAnimatedBackground } from '@/components/global-animated-background'
 import './globals.css'
 
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${poppins.variable} font-sans antialiased`}>
         <GlobalAnimatedBackground />
         {children}
+        <Analytics />
       </body>
     </html>
   )
