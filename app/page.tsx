@@ -97,7 +97,7 @@ export default function Home() {
 
               {/* Company Ticker */}
               <div className="mb-8">
-                <p className="text-gray-400 text-sm mb-4 font-medium">Get Internship updates from companies like (and more)</p>
+                <p className="text-gray-400 text-sm mb-4 font-medium">Featured companies hiring interns</p>
                 <CompanyTicker />
               </div>
             </div>

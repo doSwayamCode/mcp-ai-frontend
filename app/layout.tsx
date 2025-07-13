@@ -15,7 +15,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Intern Dedo - Find Your Dream Internship',
+  title: 'Intern Wala',
   description: 'Get the latest internship opportunities delivered straight to your inbox. 100% Free Forever!',
   generator: 'Next.js',
 }
